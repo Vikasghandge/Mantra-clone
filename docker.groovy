@@ -22,7 +22,7 @@ pipeline {
 
         stage('Checkout from Git') {
             steps {
-                git branch: 'dev', url: ''
+                git branch: 'dev', url: 'https://github.com/Vikasghandge/Mantra-clone.git'
             }
         }
 
