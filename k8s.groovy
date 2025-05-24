@@ -109,7 +109,7 @@ pipeline {
                     dir('starbucks-main/K8S') {
                         sh '''
                             aws eks --region ap-south-1 update-kubeconfig --name EKS_CLOUD
-                            kubectl apply -f deployment.yml
+                            kubectl apply -f servicedeployment.yml
                             
                         '''
                     }
