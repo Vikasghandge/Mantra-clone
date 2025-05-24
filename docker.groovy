@@ -31,7 +31,7 @@ pipeline {
                 withSonarQubeEnv('sonar-server') {
                     sh '''${SCANNER_HOME}/bin/sonar-scanner \
                     -Dsonar.projectName=Mantra-clone \
-                    -Dsonar.projectKey=Mantra'''
+                    -Dsonar.projectKey=Mantra-clone'''
                 }
             }
         }
