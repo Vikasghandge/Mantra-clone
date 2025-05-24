@@ -100,7 +100,7 @@ pipeline {
 
         stage('Deploy Docker Locally') {
             steps {
-                sh "docker run -d --name mantra- -p 3000:3000 ${DOCKER_IMAGE}"
+                sh "docker run -d --name mantra-clone -p 3000:3000 ${DOCKER_IMAGE}"
             }
         }
     }
