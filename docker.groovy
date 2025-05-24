@@ -30,7 +30,7 @@ pipeline {
             steps {
                 withSonarQubeEnv('sonar-server') {
                     sh '''${SCANNER_HOME}/bin/sonar-scanner \
-                    -Dsonar.projectName=Star-Bucks \
+                    -Dsonar.projectName=Mantra-clone \
                     -Dsonar.projectKey=Star-Bucks'''
                 }
             }
