@@ -75,7 +75,7 @@ pipeline {
 
         stage('Docker Build & Push') {
             steps {
-                dir('starbucks-main') {
+                dir('Myntra-Clone-main') {
                     script {
                         withDockerRegistry(credentialsId: 'docker', toolName: 'docker') {
                             sh "docker build -t ${DOCKER_IMAGE} ."
