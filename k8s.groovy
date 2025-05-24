@@ -103,5 +103,6 @@ pipeline {
                 sh "docker run -d --name mantra-clone -p 3000:3000 ${DOCKER_IMAGE}"
             }
         }
+        
     }
 }
