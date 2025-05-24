@@ -46,7 +46,7 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                dir('starbucks-main') {
+                dir('Myntra-Clone-main') {
                     sh 'npm install'
                 }
             }
