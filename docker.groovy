@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'ghandgevikas/s:latest'
+        DOCKER_IMAGE = 'ghandgevikas/mantra-clone:latest'
         SCANNER_HOME = tool 'sonar-scanner'
        // CLUSTER_NAME = 'EKS-CLOUD'
        // REGION = 'ap-south-1'
